@@ -55,7 +55,7 @@ public class CardTrick {
         for (Card magicHand1 : magicHand) {
             if (magicHand1.getValue() == userCard.getValue() && magicHand1.getSuit().equalsIgnoreCase(userCard.getSuit())) {
                 int i = 0;
-                 printInfo("Found A Match with\n"+magicHand[i].getSuit()+"|"+magicHand[i].getValue() );
+                 printInfo("Found A perfect Match with\n"+magicHand[i].getSuit()+"|"+magicHand[i].getValue() );
                 break;
             }
         }
