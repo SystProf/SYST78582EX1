@@ -54,7 +54,13 @@ public class CardTrick {
        
         for (Card magicHand1 : magicHand) {
             if (magicHand1.getValue() == userCard.getValue() && magicHand1.getSuit().equalsIgnoreCase(userCard.getSuit())) {
+
                 found = true;
+
+                 int i = 0;
+                /***I'm done!"*/
+                printInfo("Found A perfect Match with\n"+magicHand[i].getSuit()+"|"+magicHand[i].getValue() );
+
                 break;
             }
         }
@@ -65,5 +71,9 @@ public class CardTrick {
        else
            System.out.println("User card not found in magicHand");
    }
+
+    private static void printInfo(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }
