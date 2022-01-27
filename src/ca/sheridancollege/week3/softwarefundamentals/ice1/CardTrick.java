@@ -55,6 +55,6 @@ public class CardTrick {
     
     public String PrintInfo()
     {
-        return "My name is Sheridan Archer and I am excited to learn in this class";
+        return "My name is Sheridan Archer and I am excited to learn in this class and I am done with this exercise";
     }
 }
