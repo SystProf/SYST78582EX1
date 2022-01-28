@@ -31,7 +31,7 @@ public class CardTrick {
             c.setSuit(Card.SUITS[index]);
             c.setValue(getRandomNumer(1,13));
             magicHand[i] = c;
-            System.out.println(c.getSuit() + " " + c.getValue());
+            //System.out.println(c.getSuit() + " " + c.getValue());
         }
      
         System.out.println("Pick A Card");
