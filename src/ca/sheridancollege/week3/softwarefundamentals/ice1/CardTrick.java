@@ -23,6 +23,7 @@ public class CardTrick {
     
     public static void printInfo(String msg) {
         System.out.println(msg);
+        System.out.println("Arif Faysal - Edited from Github");
     }
     
     public static void checkCard(String input1, int input2, Card[] magicHand) {
