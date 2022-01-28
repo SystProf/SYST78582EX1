@@ -23,6 +23,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         Random random = new Random();
+        boolean card = false;
         Scanner in = new Scanner(System.in);
         for (int i=0; i<magicHand.length; i++)
         {
@@ -31,21 +32,28 @@ public class CardTrick {
             c.setSuit(Card.SUITS[index]);
             c.setValue(getRandomNumer(1,13));
             magicHand[i] = c;
-            //System.out.println(c.getSuit() + " " + c.getValue());
+            System.out.println(c.getSuit() + " " + c.getValue());
         }
-     
+        
         System.out.println("Pick A Card");
         String userInput = in.nextLine();
         for(int i=0; i<magicHand.length;i++)
         {
             if(magicHand[i].getSuit().equals(userInput))
             {
-                System.out.println("This card is here");
+                System.out.println("This card is in the deck");
+                card = true;
+                break;
+                
             }
-            else
-            {
-                System.out.println("The card is not here");
-            }
+            //else
+            //{
+                //System.out.println("The card is not here");   
+            //}
+        }
+        if(!card)
+        {
+            System.out.println("The card is not in the hand or does not exist"); 
         }
     }
 
