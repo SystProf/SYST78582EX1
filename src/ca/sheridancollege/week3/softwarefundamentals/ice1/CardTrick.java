@@ -74,6 +74,8 @@ public class CardTrick {
         }
         
         System.out.println("Thanks for playing!");
+        
+        myInfo.printInfo();
     }
 }
 
