@@ -40,6 +40,7 @@ public class CardTrick {
             for (int i = 0; i < magicHand.length; i++) {
                 if (magicHand[i].equals(userCardChoice)) {
                     System.out.println("The card you selected IS in the 7 card hand, excellent guess!");
+                    printInfo();
                     System.exit(0);
                 }
             }
@@ -49,5 +50,9 @@ public class CardTrick {
 
     private static int getRandomCardNumber(int lowestCardNumber, int highestCardNumber) {
         return (int) (Math.random() * (highestCardNumber - lowestCardNumber) + lowestCardNumber);
+    }
+
+    private static void printInfo() {
+        System.out.println("My name is Adam. I am looking forward to learning from you this semester!");
     }
 }
