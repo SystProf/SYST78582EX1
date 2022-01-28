@@ -22,6 +22,7 @@ import java.util.Scanner;
 public class CardTrick {
     
     public static void printInfo(String msg) {
+//        I’m done!
         System.out.println(msg);
         System.out.println("Arif Faysal - Edited from Github");
     }
