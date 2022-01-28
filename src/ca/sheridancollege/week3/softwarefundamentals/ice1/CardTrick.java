@@ -31,14 +31,14 @@ public class CardTrick {
             c.setSuit(Card.SUITS[index]);
             c.setValue(getRandomNumer(1,13));
             magicHand[i] = c;
-            //System.out.println(c.getSuit() + " " + c.getValue());
+            System.out.println(c.getSuit() + " " + c.getValue());
         }
      
         System.out.println("Pick A Card");
         String userInput = in.nextLine();
         for(int i=0; i<magicHand.length;i++)
         {
-            if(magicHand[i].equals(userInput))
+            if(magicHand[i].getSuit().equals(userInput))
             {
                 System.out.println("This card is here");
             }
