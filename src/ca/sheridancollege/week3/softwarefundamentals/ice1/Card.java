@@ -15,18 +15,29 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * @author dancye
  * @modified by Megha Patel
  * @modified by Harriet Liwayan
+ * @author Harriet Liwayan
  * Student ID: 991639959
- * 
+ * Date: January 27, 2022
  */
+import java.util.Scanner;
+
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
+   public int userVal;
+   public String userSuit;
+   
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+
+    public Card() {
+        
+    }
     /**
      * @return the suit
      */
+    
     public String getSuit() {
         return suit;
     }
@@ -51,7 +62,29 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+
+    public int randomValue() {
+        //throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        int ranVal = (int)(Math.random()*13) + 1;
+        return ranVal;
+    }
    
-   
+    public int randomSuit() {
+        int ranSuit = (int)(Math.random()*4) + 0;
+        return ranSuit;
+    
+    }
+    public int getUserVal() {
+      return userVal;
+    }
+    
+    public void setUserVal(int userVal) {
+        this.userVal = userVal;
+    }
+    
+    public String getUserSuit() {
+        return userSuit;
+    }
+    
     
 }
