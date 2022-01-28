@@ -32,6 +32,8 @@ public class CardTrick {
         //Creating a new instance og Card.java object
         Card cardVal = new Card();
         
+        Card myInfo = new Card();
+        
 
         System.out.println("Welcome!");    
         
