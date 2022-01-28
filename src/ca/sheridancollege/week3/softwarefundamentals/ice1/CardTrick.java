@@ -46,10 +46,6 @@ public class CardTrick {
                 break;
                 
             }
-            //else
-            //{
-                //System.out.println("The card is not here");   
-            //}
         }
         if(!card)
         {
