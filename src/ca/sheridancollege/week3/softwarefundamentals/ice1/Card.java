@@ -87,7 +87,7 @@ public class Card {
     }
    
    public void printInfo() {
-      System.out.println("My name is Harriet. I prefer to go by J., because J. is an empty name.");
+      System.out.println("My name is Harriet. I prefer to go by J., because J. is an empty name. I also like red.");
    }
         
 }
