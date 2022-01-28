@@ -85,6 +85,9 @@ public class Card {
     public String getUserSuit() {
         return userSuit;
     }
-    
-    
+   
+   public void printInfo() {
+      System.out.println("My name is Harriet. I prefer to go by J., because J. is an empty name.");
+   }
+        
 }
