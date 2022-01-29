@@ -12,8 +12,8 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * There are 52 cards in a deck, no jokers.
  * This code is to be used in ICE1. When you create your own branch,
  * add your name as a modifier.
- * @author dancye
- * @modified by Megha Patel
+ * @author Juian Ellis 29/01/2022
+ * @modified by Julian Ellis 991654874 
  * 
  */
 public class Card {
@@ -46,8 +46,11 @@ public class Card {
     /**
      * @param value the value to set
      */
-    public void setValue(int value) {
-        this.value = value;
+    public void setValue(int value) throws Exception {
+        if (value<1||value>13) {
+            throw new Exception("not a valid card number");
+        }
+        else {this.value = value;}
     }
    
    
