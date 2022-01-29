@@ -38,9 +38,8 @@ public class CardTrick {
             if ((c1.getSuit().equalsIgnoreCase(magicHand1.getSuit())) && 
                     (c1.getValue() == magicHand1.getValue())){
                 
+                c1.printInfo();
                 
-                System.out.printf("%s%d %s%s%n","Magic hand contains "
-                        + "your card(",c1.getValue(),c1.getSuit(),")");
                 control =1;
                 break;
             } 

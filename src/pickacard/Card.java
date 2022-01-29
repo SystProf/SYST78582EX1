@@ -44,6 +44,11 @@ public class Card {
         this.value = value;
     }
 
+    void printInfo() {
+        System.out.printf("%s%d %s%s%n","Magic hand contains "
+                        + "your card(",this.getValue(),this.getSuit(),")");
+    }
+
    
       
 }
