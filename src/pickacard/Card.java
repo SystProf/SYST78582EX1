@@ -45,6 +45,7 @@ public class Card {
     }
 
     void printInfo() {
+        //I am done!
         System.out.printf("%s%d %s%s%n","Magic hand contains "
                         + "your card(",this.getValue(),this.getSuit(),")");
        //this comment is inserted from github.com
