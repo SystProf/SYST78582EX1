@@ -39,7 +39,7 @@ public class CardTrick {
             c.setSuit(Card.SUITS[genSuit1]);
             magicHand[i] = (c.getSuit() + c.getValue());
 
-             }
+         }
         
         while (true) {
             
@@ -49,7 +49,7 @@ public class CardTrick {
             for(int i = 0; i < magicHand.length; i++) {
                 if (magicHand[i].equals(userCardChoice)) { 
                     System.out.println("The card is in the hand! Congratulations.");
-                  
+                    printInfo();
                     System.exit(0);
                    
                 }
@@ -64,6 +64,9 @@ public class CardTrick {
     private static int getRandomCardNumber(int lowCardNum, int hiCardNum) {
         return (int) (Math.random() * (hiCardNum - lowCardNum) + lowCardNum);
     }
+    
+    private static void printInfo() {
+        System.outprintln("I am Bernard. I enjoy gaming and programming. Here's to a wonderful semester.");
         
     }
    
