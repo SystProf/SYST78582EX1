@@ -66,8 +66,10 @@ public class CardTrick {
     }
     
     private static void printInfo() {
-        System.outprintln("I am Bernard. I enjoy gaming and programming. Here's to a wonderful semester.");
+       //I'm done!!!
+        System.out.println("I am Bernard. I enjoy gaming and programming. Here's to a wonderful semester.");
         
-    }
+  }
+}
    
 
