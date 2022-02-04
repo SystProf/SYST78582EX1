@@ -54,7 +54,7 @@ public class CardTrick {
     }
 
     private static void printInfo() {
-        System.out.println("The card combo you have chosen matches one of the 7 magical cards!");
+        System.out.println("The card combo you have chosen matches one of the 7 magical cards! =) =) =)");
     }
     
 }
