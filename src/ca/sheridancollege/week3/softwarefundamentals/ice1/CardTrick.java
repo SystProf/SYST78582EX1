@@ -54,7 +54,8 @@ public class CardTrick {
     }
 
     private static void printInfo() {
-        System.out.println("The card combo you have chosen matches one of the 7 magical cards!");
+        // i'm done - was able to push the code to the branch created, edit it on github, fetch/pull it back to intellij, and now will do one final merge
+        System.out.println("The card combo you have chosen matches one of the 7 magical cards! =) =) =)");
     }
     
 }
