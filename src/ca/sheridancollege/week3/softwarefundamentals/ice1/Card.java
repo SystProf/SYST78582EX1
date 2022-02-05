@@ -14,6 +14,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  * add your name as a modifier.
  * @author dancye
  * @modified by Megha Patel
+ * @modified by David Vallecampo ID 991487504
  * 
  */
 public class Card {
