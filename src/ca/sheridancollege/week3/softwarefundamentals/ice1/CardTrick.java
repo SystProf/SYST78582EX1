@@ -33,7 +33,7 @@ public class CardTrick {
             Card.Value value = Card.Value.values()[random.nextInt(13)];
             Card c = new Card(suit, value);
             magicHand[i] = c;
-            // System.out.println(c.getSuit() + " " + c.getValue()); // this is just to test the code
+            System.out.println(c.getSuit() + " " + c.getValue()); // this is just to test the code
         }
 
         System.out.println("Pick any card combination!");
@@ -71,6 +71,7 @@ public class CardTrick {
     private static void printInfo() {
         // i'm done - was able to push the code to the branch created, edit it on github, fetch/pull it back to intellij, and now will do one final merge
         System.out.println("The card combo you have chosen matches one of the 7 magical cards! =) =) =)");
+        // idk why but my history deleted the proof that i edited the code on github, so i'm doing it with this comment before submitting
     }
 
 }
