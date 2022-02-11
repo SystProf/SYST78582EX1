@@ -18,38 +18,26 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1;
  */
 public class Card {
 
-   private String suit; //clubs, spades, diamonds, hearts
-   private int value;//1-13
-
-   public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
-    /**
-     * @return the suit
-     */
-    public String getSuit() {
-        return suit;
+    public enum Suit {
+        HEARTS, DIAMONDS, SPADES, CLUBS
     }
 
-    /**
-     * @param suit the suit to set
-     */
-    public void setSuit(String suit) {
+    public enum Value {
+        ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING
+    }
+
+    private final Suit suit;
+    private final Value value;
+
+    public Card(Suit suit, Value value) {
         this.suit = suit;
-    }
-
-    /**
-     * @return the value
-     */
-    public int getValue() {
-        return value;
-    }
-
-    /**
-     * @param value the value to set
-     */
-    public void setValue(int value) {
         this.value = value;
     }
-   
-   
-    
+    public Suit getSuit() {
+        return this.suit;
+    }
+
+    public Value getValue() {
+        return this.value;
+    }
 }
