@@ -71,6 +71,7 @@ public class CardTrick {
     private static void printInfo() {
         // i'm done - was able to push the code to the branch created, edit it on github, fetch/pull it back to intellij, and now will do one final merge
         System.out.println("The card combo you have chosen matches one of the 7 magical cards! =) =) =)");
+        // idk why but my history deleted the proof that i edited the code on github, so i'm doing it with this comment before submitting
     }
 
 }
